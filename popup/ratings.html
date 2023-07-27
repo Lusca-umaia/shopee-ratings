@@ -1,0 +1,46 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comentários do produto</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../styles/style_ratings.css">
+    <link rel="stylesheet" href="../styles/style_global.css">
+</head>
+
+<body>
+    <main class="container">
+        <div class="box">
+            <div class="headerBox">
+                <div class="header_left">
+                    <p>Média de estrelas</p>
+                    <div class="commentStatistics">
+                        <div class="starGroup">
+                            <i class="bi bi-star-fill star starAverage"></i>
+                            <i class="bi bi-star-fill star starAverage"></i>
+                            <i class="bi bi-star-fill star starAverage"></i>
+                            <i class="bi bi-star-fill star starAverage"></i>
+                            <i class="bi bi-star-fill star starAverage"></i>
+                        </div>
+                        <p id="starAverage">0,0</p>
+                    </div>
+                </div>
+                <div class="header_right">
+                    <button type="button">Baixar CSV</button>
+                    <button type="button">Apagar Imagens</button>
+                </div>
+            </div>
+            <div class="containerReviews" id="reviews">
+                <img src="../assets/loading.svg" alt="Loading" id="loading">
+            </div>
+            <div class="groupButton">
+                <a href="./platform.html"><button id="buttonBack">Voltar</button></a>
+                <button id="buttonNext">Enviar</button>
+            </div>
+        </div>
+    </main>
+    <script src="../js/logic_ratings.js"></script>
+</body>
+
+</html>

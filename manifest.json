@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "Reviews Shoppe",
+    "description": "Extensão que apresenta os comentários de um produto da shoppe",
+    "version": "1.0",
+    "action": {
+        "default_popup": "./popup/index.html",
+        "default_icon": "./assets/Shopee_logo.svg.png"
+    }
+}

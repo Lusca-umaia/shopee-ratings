@@ -1,0 +1,96 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self'">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../styles/style_global.css">
+    <link rel="stylesheet" href="../styles/style_home.css">
+</head>
+
+<body>
+    <main class="container">
+        <div class="box">
+            <div class="headerBox">
+                <div class="leftGroup">
+                    <img src="../assets/arrowLeft.png" alt="arrow Left">
+                    <span>Olá, THIAGO <br>CALDEIRA.</span>
+                </div>
+                <div class="rightGroup">
+                    <i class="bi bi-globe2"></i>
+                    <div>
+                        <i class="bi bi-person"></i>
+                    </div>
+                </div>
+            </div>
+            <h1 id="title">Bem vindo ao <br><span id="spanTitle">importador de reviews</span></h1>
+            <div class="formBox">
+                <form id="form">
+                    <div class="groupInputText">
+                        <label for="linkProduct">Link do produto Shopee</label>
+                        <input type="text" id="urlProduct" name="urlProduct" placeholder="https://shopee..."
+                            required></input>
+                    </div>
+                    <div class="groupCheckbox">
+                        <label class="labelCheckbox" for="imagesOnly">
+                            <input type="checkbox" id="imagesOnly" name="imagesOnly"
+                                value="Somente com imagens"></input>
+                            <span class="check">
+                                <img src="../assets/check-mark.png" alt="confirm checkbox">
+                            </span>
+                            Somente com imagens
+                        </label>
+                        <label class="labelCheckbox" for="anImage">
+                            <input type="checkbox" id="anImage" name="anImage" value="Uma imagem por review"></input>
+                            <span class="check">
+                                <img src="../assets/check-mark.png" alt="confirm checkbox">
+                            </span>
+                            Uma imagem por review
+                        </label>
+                    </div>
+                    <div class="groupInputText">
+                        <label for="salesPage">Link da sua página de vendas</label>
+                        <input type="text" id="salesPage" name="salesPage" placeholder="https://shopee..."></input>
+                    </div>
+                    <div>
+                        <div class="groupInputRange">
+                            <div class="inputRange">
+                                <label for="quantReviews">Qtd. reviews</label>
+                                <input type="range" name="quantReviews" class='rangeStyle rangeColorOne'
+                                    id="quantReviews" min="0" max="100" value="0">
+                            </div>
+                            <output id="reviews_value">0</output>
+                        </div>
+                        <div class="groupInputRange mt10">
+                            <div class="inputRange">
+                                <label for="quantReviews">Distribuição de gênero</label>
+                                <input type="range" name="quantGenres" class='rangeStyle rangeColorTwo' id="quantGenres"
+                                    min="0" max="0" value="0" disabled>
+                            </div>
+                        </div>
+                        <div class="outputsGenres mt15">
+                            <div>
+                                <output id="qtdMan">0</output>
+                                <label>Homens</label>
+                            </div>
+                            <div>
+                                <output id="qtdWoman">0</output>
+                                <label>Mulheres</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="bottomPhrase">Continuar de onde parei</p>
+                        <button class="mt15" type="submit" id="tes">Importar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <script src="../js/logic_home.js"></script>
+</body>
+
+</html>
