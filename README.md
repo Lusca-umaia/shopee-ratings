@@ -1,6 +1,6 @@
-# Teste Técnico - Front-End - Extensão do Google Chrome - shoppe-ratings
+# Teste Técnico - Front-End - Extensão do Google Chrome - shopee-ratings
 
-Esta é uma extensão do Google Chrome que permite visualizar/importar os comentários de um produto da Shoppe fornecendo apenas o link do mesmo. Com essa extensão, os usuários podem acessar facilmente os comentários dos produtos que sejam da escolha.
+Esta é uma extensão do Google Chrome que permite visualizar/importar os comentários de um produto da shopee fornecendo apenas o link do mesmo. Com essa extensão, os usuários podem acessar facilmente os comentários dos produtos que sejam da escolha.
 
 ## Funcionalidades
 
@@ -32,6 +32,6 @@ Esta é uma extensão do Google Chrome que permite visualizar/importar os coment
 
 ## Notas
 
-- Certifique-se de que o link do produto fornecido seja válido e corresponda a um produto da Shoppe.
+- Certifique-se de que o link do produto fornecido seja válido e corresponda a um produto da shopee.
 - Alguns botões e inputs são apenas ilustrativos.
 - Você pode "Remover" as avaliações ao clicar no botão vermelho que estão presentes em cada uma - obs: será removido apenas localmente.
